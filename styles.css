@@ -1,0 +1,99 @@
+/* Google Font: Press Start 2P (Cyberpunk Style) */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background: linear-gradient(135deg, #000000, #162447, #0f3460);
+    color: #ffffff;
+    line-height: 1.8;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #33ff00;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #00ff0d;
+}
+
+h2 {
+    color: #1eff00;
+    margin: 20px 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p, li {
+    color: #c5c6c7;
+}
+
+a {
+    color: #05ff05;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #05ff05;
+    text-shadow: 0 0 8px #04ff04;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: rgba(17, 17, 17, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(4, 255, 4, 0.5);
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.project {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(10, 10, 10, 0.9);
+    border-top: 2px solid #01ff16;
+    box-shadow: 0 0 15px rgba(0, 255, 21, 0.7);
+}
+
+footer p {
+    color: #04ff04;
+}
+
+button, a {
+    transition: all 0.3s ease;
+}
+
+a:hover, button:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
+
